@@ -1,0 +1,1 @@
+$results = DB::select('select * from users where id = ?', array(1));
